@@ -1,0 +1,102 @@
+.p1 {
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0) 80%, rgb(0, 0, 0)), url(../static/p1/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.p1 header {
+    padding: 2.718rem;
+    padding-bottom: 0;
+
+    height: fit-content;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.p1 header button {
+    border-radius: calc(18 / 16 * 1rem);
+
+    padding: calc(8 / 16 * 1rem) calc(29 / 16 * 1rem);
+    font-family: "Inter";
+    font-weight: bold;
+
+    font-size: calc(20 / 16 * 1rem);
+    font-weight: 600;
+
+    background: #4d9ecb;
+    border: none;
+    outline: transparent;
+
+    color: #e8ffff;
+}
+
+.p1 main {
+    margin-top: calc(80 / 16 * 1rem);
+    padding: 0 calc(65 / 16 * 1rem);
+}
+
+.p1 main h1 {
+    padding: 0;
+    margin: 0;
+
+    font-size: calc(118 / 16 * 1rem);
+
+    font-family: "Abdo Master";
+
+    background-image: url(../static/p1/title-effect.png);
+    background-repeat: no-repeat;
+    background-size: 51% 83%;
+    background-position-x: -6%;
+    background-clip: text;
+    color: transparent;
+}
+
+.p1 main h2 {
+    padding: 0;
+    margin: 0;
+
+    font-size: calc(90 / 16 * 1rem);
+
+    font-family: "Abdo Master";
+    color: #fff;
+
+    transform: translateY(calc(-50% + 1.5rem));
+}
+
+.p1 footer {
+    position: absolute;
+    padding: calc(62.5 / 16 * 1rem);
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: calc(40 / 16 * 1rem);
+}
+
+.p1 footer button {
+    background: none;
+    outline: transparent;
+    border: none;
+
+    color: #afb0b4;
+    font-size: calc(22 / 16 * 1rem);
+    font-family: "Inter";
+    font-weight: bold;
+}

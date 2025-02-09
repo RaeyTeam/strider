@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Inter";
+    font-weight: bold;
+    src: url(../fonts/Inter_18pt-SemiBold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: normal;
+    src: url(../fonts/Inter_18pt-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Abdo Master";
+    src: url(../fonts/AbdoMatser-Heavy.woff) format("woff");
+    font-weight: bold;
+}
+
+:root {
+    font-size: min(2.2vw, 2.2vh);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
